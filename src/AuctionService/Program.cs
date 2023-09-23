@@ -19,4 +19,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+try
+{
+    DbInitializer.IntDb(app);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex);
+}
+
 app.Run();
