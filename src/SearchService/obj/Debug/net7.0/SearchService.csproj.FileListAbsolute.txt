@@ -41,3 +41,4 @@
 /Users/francisdecena/project/Carsties/src/SearchService/obj/Debug/net7.0/SearchService.pdb
 /Users/francisdecena/project/Carsties/src/SearchService/obj/Debug/net7.0/SearchService.genruntimeconfig.cache
 /Users/francisdecena/project/Carsties/src/SearchService/obj/Debug/net7.0/ref/SearchService.dll
+/Users/francisdecena/project/Carsties/src/SearchService/bin/Debug/net7.0/Data/auctions.json
