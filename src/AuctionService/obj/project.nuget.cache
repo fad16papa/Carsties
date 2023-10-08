@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BLq5pE4ajUXTo9kGQ/uFLOo1QyboOnvzF/kUTdYuwYLBp3g9eUNfi0MWSWlpGFLuVVJgc6G93hbvELtVwkYfow==",
+  "dgSpecHash": "8odxgISvrfjLY4CTis0959nqRkgH9gxrlgz5WezqGtVymIg/9RRjaMfClELGMEH1dH91mIpgq0Rt4MALAJjrmA==",
   "success": true,
   "projectFilePath": "/Users/francisdecena/project/Carsties/src/AuctionService/AuctionService.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/francisdecena/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/masstransit/8.1.1/masstransit.8.1.1.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/masstransit.abstractions/8.1.1/masstransit.abstractions.8.1.1.nupkg.sha512",
+    "/Users/francisdecena/.nuget/packages/masstransit.entityframeworkcore/8.1.1/masstransit.entityframeworkcore.8.1.1.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/masstransit.rabbitmq/8.1.1/masstransit.rabbitmq.8.1.1.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,4 +1,5 @@
 using AuctionService.Data;
+using AuctionService.Entities;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +17,13 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddMassTransit(x =>
 {
+    x.AddEntityFrameworkOutbox<AuctionDbContext>(opt =>
+    {
+        opt.QueryDelay = TimeSpan.FromSeconds(10);
+        opt.UsePostgres();
+        opt.UseBusOutbox();
+    });
+
     x.UsingRabbitMq((context, configuration) =>
     {
         configuration.ConfigureEndpoints(context);
