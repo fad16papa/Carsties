@@ -2148,34 +2148,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "/Users/francisdecena/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TopSecret\\Projects\\Carsties\\src\\SearchService\\SearchService.csproj",
+      "projectUniqueName": "/Users/francisdecena/project/Carsties/src/SearchService/SearchService.csproj",
       "projectName": "SearchService",
-      "projectPath": "C:\\TopSecret\\Projects\\Carsties\\src\\SearchService\\SearchService.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\TopSecret\\Projects\\Carsties\\src\\SearchService\\obj\\",
+      "projectPath": "/Users/francisdecena/project/Carsties/src/SearchService/SearchService.csproj",
+      "packagesPath": "/Users/francisdecena/.nuget/packages/",
+      "outputPath": "/Users/francisdecena/project/Carsties/src/SearchService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\TopSecret\\Projects\\Carsties\\src\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\TopSecret\\Projects\\Carsties\\src\\Contracts\\Contracts.csproj"
+            "/Users/francisdecena/project/Carsties/src/Contracts/Contracts.csproj": {
+              "projectPath": "/Users/francisdecena/project/Carsties/src/Contracts/Contracts.csproj"
             }
           }
         }
@@ -2226,16 +2224,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\TopSecret\\Projects\\Carsties\\src\\SearchService\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
