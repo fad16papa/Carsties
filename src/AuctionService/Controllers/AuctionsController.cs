@@ -103,6 +103,8 @@ namespace AuctionService.Controllers
 
             _auctionDbContext.Auctions.Remove(auction);
 
+            await _publishEndpoint.Publish<AuctionDeleted>(new { id = auction.Id.ToString() });
+
             var result = await _auctionDbContext.SaveChangesAsync() > 0;
 
             if (!result) return BadRequest("Could not update datbase");
