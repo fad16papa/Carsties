@@ -140,3 +140,4 @@ C:\TopSecret\Projects\Carsties\src\IdentityService\obj\Debug\net7.0\refint\Ident
 C:\TopSecret\Projects\Carsties\src\IdentityService\obj\Debug\net7.0\IdentityService.pdb
 C:\TopSecret\Projects\Carsties\src\IdentityService\obj\Debug\net7.0\IdentityService.genruntimeconfig.cache
 C:\TopSecret\Projects\Carsties\src\IdentityService\obj\Debug\net7.0\ref\IdentityService.dll
+C:\TopSecret\Projects\Carsties\src\IdentityService\bin\Debug\net7.0\keys\is-signing-key-9D05DAFBCF90113B8266932386940364.json
