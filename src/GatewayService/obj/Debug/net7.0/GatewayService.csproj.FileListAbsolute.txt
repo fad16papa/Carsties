@@ -23,3 +23,17 @@
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.pdb
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.genruntimeconfig.cache
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewayService.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.Bcl.TimeProvider.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/System.Collections.Immutable.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/System.IO.Hashing.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/Yarp.ReverseProxy.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.csproj.AssemblyReference.cache
+/Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.csproj.CopyComplete
