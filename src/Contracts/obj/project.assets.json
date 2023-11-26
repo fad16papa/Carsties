@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "/Users/francisdecena/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TopSecret\\Projects\\Carsties\\src\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "/Users/francisdecena/project/Carsties/src/Contracts/Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\TopSecret\\Projects\\Carsties\\src\\Contracts\\Contracts.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\TopSecret\\Projects\\Carsties\\src\\Contracts\\obj\\",
+      "projectPath": "/Users/francisdecena/project/Carsties/src/Contracts/Contracts.csproj",
+      "packagesPath": "/Users/francisdecena/.nuget/packages/",
+      "outputPath": "/Users/francisdecena/project/Carsties/src/Contracts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
