@@ -2547,24 +2547,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/francisdecena/.nuget/packages/": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/francisdecena/project/Carsties/src/IdentityService/IdentityService.csproj",
+      "projectUniqueName": "C:\\TopSecret\\Projects\\Carsties\\src\\IdentityService\\IdentityService.csproj",
       "projectName": "IdentityService",
-      "projectPath": "/Users/francisdecena/project/Carsties/src/IdentityService/IdentityService.csproj",
-      "packagesPath": "/Users/francisdecena/.nuget/packages/",
-      "outputPath": "/Users/francisdecena/project/Carsties/src/IdentityService/obj/",
+      "projectPath": "C:\\TopSecret\\Projects\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\TopSecret\\Projects\\Carsties\\src\\IdentityService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2637,7 +2639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

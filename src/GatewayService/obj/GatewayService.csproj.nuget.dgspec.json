@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/francisdecena/project/Carsties/src/GatewayService/GatewayService.csproj": {}
+    "C:\\TopSecret\\Projects\\Carsties\\src\\GatewayService\\GatewayService.csproj": {}
   },
   "projects": {
-    "/Users/francisdecena/project/Carsties/src/GatewayService/GatewayService.csproj": {
+    "C:\\TopSecret\\Projects\\Carsties\\src\\GatewayService\\GatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/francisdecena/project/Carsties/src/GatewayService/GatewayService.csproj",
+        "projectUniqueName": "C:\\TopSecret\\Projects\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "projectName": "GatewayService",
-        "projectPath": "/Users/francisdecena/project/Carsties/src/GatewayService/GatewayService.csproj",
-        "packagesPath": "/Users/francisdecena/.nuget/packages/",
-        "outputPath": "/Users/francisdecena/project/Carsties/src/GatewayService/obj/",
+        "projectPath": "C:\\TopSecret\\Projects\\Carsties\\src\\GatewayService\\GatewayService.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\TopSecret\\Projects\\Carsties\\src\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
