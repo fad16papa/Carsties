@@ -76,3 +76,4 @@ C:/TopSecret/Projects/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewaySe
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.pdb
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.genruntimeconfig.cache
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewayService.dll
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/appsettings.Docker.json
