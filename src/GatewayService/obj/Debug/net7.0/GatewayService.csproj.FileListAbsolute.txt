@@ -38,6 +38,7 @@ C:/TopSecret/Projects/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayServic
 C:/TopSecret/Projects/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.genruntimeconfig.cache
 C:/TopSecret/Projects/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewayService.dll
 /Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/appsettings.Development.json
+/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/appsettings.Docker.json
 /Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/appsettings.json
 /Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/GatewayService
 /Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/GatewayService.deps.json
@@ -76,4 +77,3 @@ C:/TopSecret/Projects/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewaySe
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.pdb
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/GatewayService.genruntimeconfig.cache
 /Users/francisdecena/project/Carsties/src/GatewayService/obj/Debug/net7.0/ref/GatewayService.dll
-/Users/francisdecena/project/Carsties/src/GatewayService/bin/Debug/net7.0/appsettings.Docker.json
