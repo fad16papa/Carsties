@@ -1,23 +1,57 @@
+import { userParamsStore } from "@/hooks/useParamsStore";
 import { Button, ButtonGroup } from "flowbite-react";
-import React from "react";
-
-type Props = {
-  pageSize: number;
-  setPageSize: (size: number) => void;
-};
+import { AiOutlineClockCircle, AiOutlineSortAscending } from "react-icons/ai";
+import { BsFillStopCircleFill } from "react-icons/bs";
 
 const pageSizeButtons = [4, 8, 12];
 
-export default function Filters({ pageSize, setPageSize }: Props) {
+const orderButtons = [
+  {
+    label: "Alphabetical",
+    icon: AiOutlineSortAscending,
+    value: "make",
+  },
+  {
+    label: "Ending Date",
+    icon: AiOutlineClockCircle,
+    value: "ending soon",
+  },
+  {
+    label: "Recently Added",
+    icon: BsFillStopCircleFill,
+    value: "new",
+  },
+];
+
+export default function Filters() {
+  const pageSize = userParamsStore((state) => state.pageSize);
+  const setParams = userParamsStore((state) => state.setParams);
+  const orderBy = userParamsStore((state) => state.orderBy);
+
   return (
     <div className="flex justify-between items-center mb-4">
+      <div>
+        <span className="uppercase text-sm text-gray-500 mr-2">Order by</span>
+        <ButtonGroup>
+          {orderButtons.map(({ label, icon: Icon, value }) => (
+            <Button
+              key={value}
+              onClick={() => setParams({ orderBy: value })}
+              color={`${orderBy === value ? "red" : "gray"}`}
+            >
+              <Icon className="mr-3 h-4 w-4" />
+              {label}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
       <div>
         <span className="uppercase text-sm text-gray-500 mr-2">Page size</span>
         <ButtonGroup>
           {pageSizeButtons.map((value, i) => (
             <Button
               key={i}
-              onClick={() => setPageSize(value)}
+              onClick={() => setParams({ pageSize: value })}
               color={`${pageSize === value ? "red" : "gray"}`}
               className="focus:ring-0"
             >
