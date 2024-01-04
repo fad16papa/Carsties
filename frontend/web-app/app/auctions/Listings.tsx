@@ -9,6 +9,7 @@ import Filters from "./Filters";
 import { userParamsStore } from "@/hooks/useParamsStore";
 import { shallow } from "zustand/shallow";
 import qs from "query-string";
+import EmptyFilter from "../components/EmptyFilter";
 
 export default function Listings() {
   const [data, setData] = useState<PagedResult<Auction>>();
@@ -39,21 +40,29 @@ export default function Listings() {
 
   if (!data) return <h3>Loading....</h3>;
 
+  if (data.totalCount === 0) return <EmptyFilter showReset />;
+
   return (
     <Fragment>
       <Filters />
-      <div className="grid grid-cols-4 gap-6">
-        {data.results.map((auction) => (
-          <AuctionCard auction={auction} key={auction.id} />
-        ))}
-      </div>
-      <div className="flex justify-center m-4">
-        <AppPagination
-          pageChange={setPageNumber}
-          currentPage={params.pageNumber}
-          pageCount={data.pageCount}
-        />
-      </div>
+      {data.totalCount === 0 ? (
+        <EmptyFilter showReset />
+      ) : (
+        <Fragment>
+          <div className="grid grid-cols-4 gap-6">
+            {data.results.map((auction) => (
+              <AuctionCard auction={auction} key={auction.id} />
+            ))}
+          </div>
+          <div className="flex justify-center m-4">
+            <AppPagination
+              pageChange={setPageNumber}
+              currentPage={params.pageNumber}
+              pageCount={data.pageCount}
+            />
+          </div>
+        </Fragment>
+      )}
     </Fragment>
   );
 }

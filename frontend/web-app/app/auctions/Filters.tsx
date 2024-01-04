@@ -18,7 +18,7 @@ const orderButtons = [
     value: "ending soon",
   },
   {
-    label: "Recently Added",
+    label: "Recently added",
     icon: BsFillStopCircleFill,
     value: "new",
   },
@@ -28,12 +28,12 @@ const filterButtons = [
   {
     label: "Live Auctions",
     icon: GiFlame,
-    value: "make",
+    value: "live",
   },
   {
     label: "Ending < 6 hours",
     icon: GiFinishLine,
-    value: "ending soon",
+    value: "endingSoon",
   },
   {
     label: "Completed",
@@ -72,7 +72,7 @@ export default function Filters() {
           {filterButtons.map(({ label, icon: Icon, value }) => (
             <Button
               key={value}
-              onClick={() => setParams({ orderBy: value })}
+              onClick={() => setParams({ filterBy: value })}
               color={`${filterBy === value ? "red" : "gray"}`}
             >
               <Icon className="mr-3 h-4 w-4" />
