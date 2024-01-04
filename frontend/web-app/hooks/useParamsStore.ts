@@ -11,7 +11,7 @@ type State = {
 }
 
 type Actions = {
-    setParams:(params: Partial<State>) => void
+    setParams: (params: Partial<State>) => void
     reset: () => void
     setSearchValue: (value: string) => void
 }
@@ -31,15 +31,16 @@ export const userParamsStore = create<State & Actions>()((set) => ({
 
     setParams: (newParams: Partial<State>) => {
         set((state) => {
-            if(newParams.pageNumber) {
+            if (newParams.pageNumber) {
                 return {...state, pageNumber: newParams.pageNumber}
             } else {
-                return {...state, ...newParams, pageNuber: 1}
+                return {...state, ...newParams, pageNumber: 1}
             }
         })
     },
-    
+
     reset: () => set(initialState),
+
     setSearchValue: (value: string) => {
         set({searchValue: value})
     }
