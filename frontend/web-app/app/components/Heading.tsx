@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {
   title: string;
-  subtitile: string;
+  subtitile?: string;
   center?: boolean;
 };
 
