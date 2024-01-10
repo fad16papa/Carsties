@@ -11,12 +11,12 @@ export const authOptions: NextAuthOptions = {
             clientId: 'nextApp',
             clientSecret: 'secret',
             issuer: 'http://localhost:5000',
-            authorization: {params: {scope: 'openid profile auctionApp'}},
+            authorization: { params: { scope: 'openid profile auctionApp' } },
             idToken: true
         })
     ],
     callbacks: {
-        async jwt({token, profile, account}) {
+        async jwt({ token, profile, account }) {
             if (profile) {
                 token.username = profile.username
             }
@@ -25,7 +25,7 @@ export const authOptions: NextAuthOptions = {
             }
             return token;
         },
-        async session({session, token}) {
+        async session({ session, token }) {
             if (token) {
                 session.user.username = token.username
             }
